@@ -11,6 +11,7 @@ import { ProgramsComponent } from './programs/programs.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { NewsComponent } from './news/news.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { FacilatatorsComponent } from './facilatators/facilatators.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { NavigationComponent } from './navigation/navigation.component';
     SpeakersComponent,
     NewsComponent,
     NavigationComponent,
+    FacilatatorsComponent,
   ],
   imports: [
     BrowserModule,
