@@ -4,7 +4,7 @@ body {
     color: #cfcfd1;
     font-weight: 300;
     font-size: 1rem;
-    background: #232531;
+    /* background: #232531; */
     font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   
   ::-moz-selection {
@@ -45,7 +45,7 @@ body {
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out;
-    background: rgba(0, 0, 0, 0.6);
+    /* background: rgba(0, 0, 0, 0.6); */
     content: "";
     position: absolute;
     z-index: 2000;
