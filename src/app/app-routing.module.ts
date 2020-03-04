@@ -5,13 +5,14 @@ import{SpeakersComponent} from './speakers/speakers.component';
 import{NewsComponent} from './news/news.component';
 import{HeaderComponent} from './header/header.component';
 import {FacilatatorsComponent} from './facilatators/facilatators.component';
+import { TicketsComponent } from './tickets/tickets.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   {path:'home', component:HeaderComponent},
   {path:'aboutus', component:AboutUsComponent},
   {path:'speakers', component:FacilatatorsComponent},
-  {path:'news', component:NewsComponent},
+  {path:'tickets', component:TicketsComponent},
 ];
 
 @NgModule({

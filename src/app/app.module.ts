@@ -12,6 +12,7 @@ import { SpeakersComponent } from './speakers/speakers.component';
 import { NewsComponent } from './news/news.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FacilatatorsComponent } from './facilatators/facilatators.component';
+import { TicketsComponent } from './tickets/tickets.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { FacilatatorsComponent } from './facilatators/facilatators.component';
     NewsComponent,
     NavigationComponent,
     FacilatatorsComponent,
+    TicketsComponent,
   ],
   imports: [
     BrowserModule,
