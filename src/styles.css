@@ -11,3 +11,22 @@ body {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+
+  /* footer */
+.site-footer{
+    padding:4em;
+    background: #222430;
+}
+.site-footer a{
+    color:#9b845a;
+}
+.site-footer a:hover{
+    color:#ffffff;
+}
+.footer-heading{
+    font-size:20px;
+}
+.site-footer ul li {
+    margin-bottom: 10px;
+ }
