@@ -6,6 +6,7 @@ import{NewsComponent} from './news/news.component';
 import{HeaderComponent} from './header/header.component';
 import {FacilatatorsComponent} from './facilatators/facilatators.component';
 import { TicketsComponent } from './tickets/tickets.component';
+import { BulletinComponent } from './bulletin/bulletin.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'aboutus', component:AboutUsComponent},
   {path:'speakers', component:FacilatatorsComponent},
   {path:'tickets', component:TicketsComponent},
+  {path: 'news', component:BulletinComponent},
 ];
 
 @NgModule({
