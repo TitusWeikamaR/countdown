@@ -14,7 +14,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { FacilatatorsComponent } from './facilatators/facilatators.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { BulletinComponent } from './bulletin/bulletin.component';
-import { SafeUrlPipe } from './safe-url.pipe';
+
 
 
 @NgModule({
@@ -31,7 +31,7 @@ import { SafeUrlPipe } from './safe-url.pipe';
     FacilatatorsComponent,
     TicketsComponent,
     BulletinComponent,
-    SafeUrlPipe,
+   
   ],
   imports: [
     BrowserModule,
