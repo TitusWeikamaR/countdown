@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { FacilatatorsComponent } from './facilatators/facilatators.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { BulletinComponent } from './bulletin/bulletin.component';
+import { Video1Component } from './video1/video1.component';
 
 
 
@@ -31,11 +33,12 @@ import { BulletinComponent } from './bulletin/bulletin.component';
     FacilatatorsComponent,
     TicketsComponent,
     BulletinComponent,
-   
+    Video1Component,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxYoutubePlayerModule.forRoot() 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,17 @@
+<div class="site-section">
+    <div class="container">
+      <p>Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Cumque, dolorum, ullam nostrum adipisci,
+          dolore commodi a totam impedit velit eos facere. 
+          At doloremque fugiat natus 
+        similique unde, nemo exercitationem sunt!
+      </p>
+
+      <youtube-player
+      [videoId]="id"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)">
+      </youtube-player>
+
+    </div>
+  </div>
